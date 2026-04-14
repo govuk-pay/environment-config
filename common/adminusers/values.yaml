@@ -2,8 +2,9 @@ image:
   repository: govukpay/adminusers
   tag: latest
 
-port: 9700
-adminPort: 9701
+service:
+  port: 9700
+  adminPort: 9701
 
 env:
   PORT: 9700
