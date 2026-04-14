@@ -20,4 +20,4 @@ env:
   HTTPS_PROXY_ENABLED: 'false'
   HTTP_PROXY_SCHEME: http
   SECURE_COOKIE_OFF: 'true'
-  JAVA_OPTS: -XX:MaxRAMPercentage=80.0
+  JAVA_OPTS: -Xms128m -Xmx1G
