@@ -2,7 +2,7 @@ image:
   repository: govukpay/selfservice
   tag: latest
 
-command: 'sh -c "npm ci && npm run dev"'
+command: ['sh -c "npm ci && npm run dev"']
 
 service:
   port: 9400

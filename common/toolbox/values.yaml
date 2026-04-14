@@ -2,7 +2,7 @@ image:
   repository: govukpay/toolbox
   tag: latest
 
-command: 'sh -c "npm run build:copy && npm --inspect=0.0.0.0:3041 start"'
+command: ['sh -c "npm run build:copy && npm --inspect=0.0.0.0:3041 start"']
 
 service:
   port: 3040
