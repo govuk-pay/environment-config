@@ -2,7 +2,8 @@ image:
   repository: govukpay/selfservice
   tag: latest
 
-command: ['sh -c "npm ci && npm run dev"']
+command: ['/bin/sh']
+args: ['-c','"npm ci && npm run dev"' ]
 
 service:
   port: 9400
@@ -23,7 +24,7 @@ env:
 
   COOKIE_MAX_AGE: '10800000'
   NODE_WORKER_COUNT: '1'
-  NODE_ENV: 'dev'
+  NODE_ENV: 'production'
 
   # defines whether outbound HTTP traffic need to be routed via a proxy.
   HTTP_PROXY_ENABLED: 'false'

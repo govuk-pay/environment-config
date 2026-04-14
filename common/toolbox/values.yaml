@@ -2,15 +2,12 @@ image:
   repository: govukpay/toolbox
   tag: latest
 
-command: ['/bin/sh']
-args: ['-c','"npm run build:copy && npm --inspect=0.0.0.0:3041 start"' ]
-
 service:
   port: 3040
 
 env:
   COOKIE_SESSION_ENCRYPTION_SECRET: 'aezoor3eig0Looche1waeh1caiph3Mek # pragma: allowlist secret'
-  NODE_ENV: 'development'
+  NODE_ENV: 'production'
   TOOLBOX_FILE_ROOT: '.'
   BUILD_FOLDER_ROOT: './dist'
   AUTH_GITHUB_ENABLED: 'false'

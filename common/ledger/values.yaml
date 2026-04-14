@@ -4,7 +4,6 @@ image:
 
 service:
   port: 10700
-  adminPort: 10701
 
 env:
   PORT: '10700'

@@ -4,7 +4,6 @@ image:
 
 service:
   port: 9200
-  adminPort: 9201
 
 env:
   PORT: '9200'
