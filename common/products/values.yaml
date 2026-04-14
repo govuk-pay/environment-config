@@ -1,0 +1,29 @@
+image:
+  repository: govukpay/products
+  tag: latest
+
+service:
+  port: 10800
+
+env:
+  PORT: '10800'
+  ADMIN_PORT: '10801'
+
+  JPA_LOG_LEVEL: 'WARNING'
+  JPA_SQL_LOG_LEVEL: 'WARNING'
+
+
+  BASE_URL: 'http://localhost:10300'
+  PRODUCTSUI_PAY_URL: 'http://localhost:10400/pay'
+  PRODUCTSUI_CONFIRMATION_URL: 'http://localhost:10400/payment-complete'
+  PRODUCTS_FRIENDLY_BASE_URI: 'http://localhost:10400/redirect'
+  PUBLICAPI_URL: 'http://publicapi:9100'
+
+  HTTP_PROXY_HOST: 'egress.pymnt.localdomain'
+  HTTP_PROXY_PORT: '8080'
+  HTTP_PROXY_SCHEME: 'http'
+  AUTH_READ_TIMEOUT_SECONDS: '1'
+
+  EXPUNGE_HISTORICAL_DATA_ENABLED: 'true'
+  EXPUNGE_DATA_OLDER_THAN_DAYS: '0'
+  EXPUNGE_NO_OF_PAYMENTS_PER_TASK_RUN: '10'

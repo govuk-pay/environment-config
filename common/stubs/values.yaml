@@ -1,0 +1,21 @@
+image:
+  repository: govukpay/stubs
+  tag: latest
+
+service:
+  port: 9900
+
+env:
+  PORT: '9900'
+  SMARTPAY_EXPECTED_USER: 'smartpay-user'
+  SMARTPAY_EXPECTED_PASSWORD: 'smartpay-password'
+  WORLDPAY_EXPECTED_USER: 'worldpay-user'
+  WORLDPAY_EXPECTED_PASSWORD: 'worldpay-password'
+  CONNECTOR_SANDBOX_NOTIFICATION_URL: 'http://connector:9300/v1/api/notifications/sandbox'
+  CONNECTOR_WORLDPAY_NOTIFICATION_URL: 'http://connector:9300/v1/api/notifications/worldpay'
+  CONNECTOR_SMARTPAY_NOTIFICATION_URL: 'http://connector:9300/v1/api/notifications/smartpay'
+  CONNECTOR_EPDQ_NOTIFICATION_URL: 'http://connector:9300/v1/api/notifications/epdq'
+  EPDQ_SHA_OUT_PASSPHRASE: 'mysecretpassphrase'
+  EXTERNAL_STUBS_URL: 'http://stubs:3030/'
+  FRONTEND_URL: 'http://localhost:9200'
+

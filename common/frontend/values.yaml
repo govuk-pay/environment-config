@@ -1,0 +1,22 @@
+image:
+  repository: govukpay/frontend
+  tag: latest
+
+service:
+  port: 9200
+  adminPort: 9201
+
+env:
+  PORT: '9200'
+  ADMIN_PORT: '9201'
+  SESSION_ENCRYPTION_KEY: asdjhbwefbo23r23rbfik2roiwhefwbqw
+  COOKIE_MAX_AGE: '5400000'
+  CONNECTOR_HOST: http://connector:9300
+  ANALYTICS_TRACKING_ID: testing-123
+  CARDID_HOST: http://cardid:9900
+  NODE_WORKER_COUNT: '1'
+  NODE_ENV: dev
+  WORLDPAY_3DS_FLEX_DDC_TEST_URL: http://stubs:3030/stub/worldpay
+  WORLDPAY_3DS_FLEX_DDC_LIVE_URL: http://stubs:3030/stub/worldpay
+
+  DISABLE_INTERNAL_HTTPS: 'true'

@@ -1,0 +1,23 @@
+image:
+  repository: govukpay/products-ui
+  tag: latest
+
+service:
+  port: 10100
+  adminPort: 10101
+
+env:
+  PORT: '10100'
+
+  SESSION_ENCRYPTION_KEY: 'asdjhbwefbo23r23rbfik2roiwhefwbqw'
+  COOKIE_MAX_AGE: '3600000'
+  DISABLE_INTERNAL_HTTPS: 'true'
+
+  SELFSERVICE_DASHBOARD_URL: 'http://localhost:9400/dashboard'
+  SELFSERVICE_DEMO_PAYMENT_RETURN_URL: 'http://localhost:9400/make-a-demo-payment/:productExternalId/go-to-transactions'
+
+  NODE_ENV: 'dev'
+
+  GOOGLE_RECAPTCHA_SITE_KEY: '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI'
+  GOOGLE_RECAPTCHA_SECRET_KEY: '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'
+  GOOGLE_RECAPTCHA_USE_ENTERPRISE_VERSION: 'false'

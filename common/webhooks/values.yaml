@@ -1,0 +1,12 @@
+image:
+  repository: govukpay/webhooks
+  tag: latest
+
+service:
+  port: 9900
+
+env:
+  PORT: '10800'
+  ADMIN_PORT: '10801'
+  WEBHOOK_MESSAGE_SENDING_QUEUE_NUMBER_OF_THREADS: '2'
+  DISABLE_INTERNAL_HTTPS: 'true'

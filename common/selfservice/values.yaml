@@ -1,0 +1,28 @@
+image:
+  repository: govukpay/selfservice
+  tag: latest
+
+service:
+  port: 9900
+
+env:
+  PORT: '9400'
+  SESSION_ENCRYPTION_KEY: 'asdjhbwefbo23r23rbfik2roiwhefwbqw'
+  PUBLIC_AUTH_URL: 'http://publicauth:9600/v1/frontend/auth'
+  SELFSERVICE_BASE: 'selfservice'
+  PRODUCTS_URL: 'http://products:18000'
+  ADMINUSERS_URL: 'http://adminusers:9700'
+  LEDGER_URL: 'http://ledger:10700'
+  WEBHOOKS_URL: 'http://webhooks:10800'
+  PRODUCTS_API_TOKEN: 'g0nBA5lNzfUalQjk4ZBDy70AikNshxz2G70dA6lg'
+  PRODUCTS_FRIENDLY_BASE_URI: 'productsui/redirect'
+
+  LOGIN_ATTEMPT_CAP: '3'
+
+  COOKIE_MAX_AGE: '10800000'
+  NODE_WORKER_COUNT: '1'
+  NODE_ENV: 'dev'
+
+  # defines whether outbound HTTP traffic need to be routed via a proxy.
+  HTTP_PROXY_ENABLED: 'false'
+

@@ -1,0 +1,20 @@
+image:
+  repository: govukpay/publicapi
+  tag: latest
+
+service:
+  port: 9100
+
+env:
+  PORT: '9100'
+  ADMIN_PORT: '9101'
+  CONNECTOR_URL: 'http://connector:9300'
+  PUBLIC_AUTH_URL: 'http://publicauth:9600/v1/api/auth'
+  LEDGER_URL: 'http://ledger:10700'
+  TOKEN_API_HMAC_SECRET: 'qwer9yuhgf'
+  PUBLICAPI_BASE: 'http://publicapi:9100'
+  ALLOW_HTTP_FOR_RETURN_URL: 'true'
+  REDIS_URL: 'redis'
+  RATE_LIMITER_VALUE: '75'
+  RATE_LIMITER_VALUE_POST: '15'
+  RATE_LIMITER_PER_MILLIS: '1000'

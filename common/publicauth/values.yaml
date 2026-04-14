@@ -1,0 +1,13 @@
+image:
+  repository: govukpay/publicauth
+  tag: latest
+
+service:
+  port: 9600
+
+env:
+  PORT: '9600'
+  ADMIN_PORT: '9601'
+
+  TOKEN_DB_BCRYPT_SALT: '$2a$10$IhaXo6LIBhKIWOiGpbtPOu'
+  TOKEN_API_HMAC_SECRET: 'qwer9yuhgf'

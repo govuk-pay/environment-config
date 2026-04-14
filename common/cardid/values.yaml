@@ -1,0 +1,11 @@
+image:
+  repository: govukpay/cardid
+  tag: latest
+
+service:
+  port: 9900
+  adminPort: 9901
+
+env:
+  PORT: '9300'
+  ADMIN_PORT: '9901'
