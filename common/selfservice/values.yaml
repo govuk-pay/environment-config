@@ -14,6 +14,7 @@ env:
   ADMINUSERS_URL: 'http://adminusers:9700'
   LEDGER_URL: 'http://ledger:10700'
   WEBHOOKS_URL: 'http://webhooks:10800'
+  CONNECTOR_URL: 'http://connector:9300'
   PRODUCTS_API_TOKEN: 'g0nBA5lNzfUalQjk4ZBDy70AikNshxz2G70dA6lg'
   PRODUCTS_FRIENDLY_BASE_URI: 'productsui/redirect'
 
