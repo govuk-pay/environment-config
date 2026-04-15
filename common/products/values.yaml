@@ -3,11 +3,11 @@ image:
   tag: latest
 
 service:
-  port: 10800
+  port: 10300
 
 env:
-  PORT: '10800'
-  ADMIN_PORT: '10801'
+  PORT: '10300'
+  ADMIN_PORT: '10301'
 
   JPA_LOG_LEVEL: 'WARNING'
   JPA_SQL_LOG_LEVEL: 'WARNING'

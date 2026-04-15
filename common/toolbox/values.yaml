@@ -13,7 +13,7 @@ env:
   BUILD_FOLDER_ROOT: './dist'
   AUTH_GITHUB_ENABLED: 'false'
   PUBLIC_AUTH_URL: 'http://publicauth:9600'
-  PRODUCTS_URL: 'http://products:18000'
+  PRODUCTS_URL: 'http://products:10300'
   ADMINUSERS_URL: 'http://adminusers:9700'
   LEDGER_URL: 'http://ledger:10700'
   WEBHOOKS_URL: 'http://webhooks:10800'

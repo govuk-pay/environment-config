@@ -3,7 +3,7 @@ image:
   tag: latest
 
 service:
-  port: 9900
+  port: 10800
 
 env:
   PORT: '10800'

@@ -10,7 +10,7 @@ env:
   SESSION_ENCRYPTION_KEY: 'asdjhbwefbo23r23rbfik2roiwhefwbqw'
   PUBLIC_AUTH_URL: 'http://publicauth:9600/v1/frontend/auth'
   SELFSERVICE_BASE: 'selfservice'
-  PRODUCTS_URL: 'http://products:18000'
+  PRODUCTS_URL: 'http://products:10300'
   ADMINUSERS_URL: 'http://adminusers:9700'
   LEDGER_URL: 'http://ledger:10700'
   WEBHOOKS_URL: 'http://webhooks:10800'
