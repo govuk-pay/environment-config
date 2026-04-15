@@ -12,7 +12,7 @@ env:
   COOKIE_MAX_AGE: '5400000'
   CONNECTOR_HOST: http://connector:9300
   ANALYTICS_TRACKING_ID: testing-123
-  CARDID_HOST: http://cardid:9900
+  CARDID_HOST: http://cardid:9800
   NODE_WORKER_COUNT: '1'
   NODE_ENV: dev
   WORLDPAY_3DS_FLEX_DDC_TEST_URL: http://stubs:3030/stub/worldpay

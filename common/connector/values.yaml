@@ -56,4 +56,4 @@ env:
   TASK_QUEUE_ENABLED: 'true'
 
   FRONTEND_URL: 'http://localhost:9200'
-  CARDID_URL: 'http://cardid:9900'
+  CARDID_URL: 'http://cardid:9800'
