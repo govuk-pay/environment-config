@@ -2,9 +2,6 @@ image:
   repository: govukpay/selfservice
   tag: latest
 
-command: ['/bin/sh']
-args: ['-c','"npm ci && npm run dev"' ]
-
 service:
   port: 9400
 
