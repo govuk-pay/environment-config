@@ -14,9 +14,9 @@ env:
 
 
   BASE_URL: 'http://localhost:10300'
-  PRODUCTSUI_PAY_URL: 'http://localhost:10400/pay'
-  PRODUCTSUI_CONFIRMATION_URL: 'http://localhost:10400/payment-complete'
-  PRODUCTS_FRIENDLY_BASE_URI: 'http://localhost:10400/redirect'
+  PRODUCTSUI_PAY_URL: 'http://localhost:10100/pay'
+  PRODUCTSUI_CONFIRMATION_URL: 'http://localhost:10100/payment-complete'
+  PRODUCTS_FRIENDLY_BASE_URI: 'http://localhost:10100/redirect'
   PUBLICAPI_URL: 'http://publicapi:9100'
 
   HTTP_PROXY_HOST: 'egress.pymnt.localdomain'
