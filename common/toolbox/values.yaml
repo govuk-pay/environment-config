@@ -17,3 +17,4 @@ env:
   ADMINUSERS_URL: 'http://adminusers:9700'
   LEDGER_URL: 'http://ledger:10700'
   WEBHOOKS_URL: 'http://webhooks:10800'
+  CONNECTOR_URL: 'http://connector:9300'
