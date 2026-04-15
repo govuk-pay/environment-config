@@ -8,7 +8,7 @@ service:
 env:
   PORT: '3040'
   COOKIE_SESSION_ENCRYPTION_SECRET: 'aezoor3eig0Looche1waeh1caiph3Mek # pragma: allowlist secret'
-  NODE_ENV: 'production'
+  NODE_ENV: 'development'
   TOOLBOX_FILE_ROOT: '.'
   BUILD_FOLDER_ROOT: './dist'
   AUTH_GITHUB_ENABLED: 'false'
