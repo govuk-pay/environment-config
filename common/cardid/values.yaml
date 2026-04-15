@@ -3,9 +3,8 @@ image:
   tag: latest
 
 service:
-  port: 9900
-  adminPort: 9901
+  port: 9800
 
 env:
-  PORT: '9300'
-  ADMIN_PORT: '9901'
+  PORT: '9800'
+  ADMIN_PORT: '9801'
